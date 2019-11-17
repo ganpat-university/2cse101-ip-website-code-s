@@ -1,0 +1,79 @@
+@charset "utf-8";
+#age .section db
+{
+	background-color: #000;
+	color: #FFF;
+	padding: 25px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	max-width: 700px;
+	margin: auto;
+}
+#age h4
+{
+	color:white;
+}
+#age a:link { color: #716AF5; }
+#age a:visited { color: #FF44FF; }
+#age .fancytype { font-family: 'Pompiere', cursive; }
+#age #intro { text-align: center; }
+#age .planet
+{
+	width: 200px;
+	padding: 10px;
+	text-align: center;
+}
+#age #milkyway
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+#age label { color: #feff7f; }
+#age #birthdate
+{
+	text-align: center;
+	font-size: 1.5em;
+}
+#age h1
+{
+	font-size: 3em;
+	margin: 0;
+}
+#age h2
+{
+	font-size: 1.5em;
+	margin: 0;
+}
+#age h3 { font-size: 1.2em; margin: 0; }
+#age .todo
+{
+	font-size: 1.6em;
+	margin: 30px 0 10px 0;
+}
+#age #birthdate input
+{
+	position: relative;
+	bottom: 5px;
+	margin-right: 15px;
+}
+
+#age .ageyear
+{
+	margin: 10px 0;
+	text-align: left;
+}
+
+#age.ageyear input { margin: 0 5px 5px 0;}
+#age .js-required
+{
+	color: red;
+	text-align: center;
+}
+
+#age ul { list-style-image: url(../images/sun.jpg);margin: 5px 0 10px 0;color:white; }
+#age li { color:white; margin: 10px 0; display:inline; }
+#age labels { font-size: .9em; }
+
+/* CSS Document */
+

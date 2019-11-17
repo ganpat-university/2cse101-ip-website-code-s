@@ -1,0 +1,111 @@
+@charset "utf-8";
+#weight .section db
+{
+	background-color: #000;
+	color: #FFF;
+	padding: 25px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	max-width: 700px;
+	margin: auto;
+}
+#weight h4
+{
+	color:white;
+}
+
+#weight a:link { color: #716AF5; }
+#weight a:visited { color: #FF44FF; }
+#weight .fancytype { font-family: 'Pompiere', cursive; }
+#weight #intro { text-align: center; }
+
+
+#weight .planet
+{
+	width: 200px;
+	padding: 10px;
+	text-align: center;
+}
+
+#weight p
+{
+	line-height: 1.5em;
+	font-size: .9em;
+}
+
+#weight .milkyway
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#weight label { color: #feff7f; }
+
+#weight #enterweight
+{
+	text-align: center;
+	font-size: 1.5em;
+	margin: 20px 0;
+}
+
+#weight h1
+{
+	font-size: 3em;
+	margin: 0;
+}
+
+#weight h2
+{
+	font-size: 1.5em;
+	margin: 0;
+}
+
+#weight h3 { font-size: 1.2em; margin: 0; }
+#weight .todo
+{
+	font-size: 1.6em;
+	margin: 30px 0 10px 0;
+}
+#weight #enterweight input
+{
+	position: relative;
+	bottom: 5px;
+	margin-right: 15px;
+}
+
+#weight .ageyear
+{
+	margin: 10px 0;
+	text-align: left;
+}
+
+#weight .ageyear input { margin: 0 5px 5px 0; }
+#weight .js-required
+{
+	color: red;
+	text-align: center;
+}
+
+#weight ul { margin: 5px 0 10px 0; }
+#weight li { margin: 10px 0; }
+#weight labels { font-size: .9em; }
+#weight h2 {
+text-align: center;
+color: #716AF5;
+margin: 20px 0 0 0;
+}
+#weight li
+{
+	color:white; margin: 10px 0;
+	display:inline;
+}
+#weight @font-face {
+  font-family: 'Pompiere';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Pompiere '), local('Pompiere-Regular'), url(https://fonts.gstatic.com/s/pompiere/v9/VEMyRoxis5Dwuyeov5Wq7DE.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* CSS Document */
+
